@@ -1,0 +1,4 @@
+1) SELECT u.username, u.name AS user_name, p.title, p.content
+   FROM users u
+   JOIN posts p ON u._id = p.user_id;
+
